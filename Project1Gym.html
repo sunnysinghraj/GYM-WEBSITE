@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>FitClub.com</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: whitesmoke;
+        font-family: 'Playball', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('gym.jpg') ;
+        background-size: cover;
+
+    }
+
+
+    .left {
+        display: inline;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        padding: 2px 2px;
+
+    }
+
+    .leftalign {
+        font-size: 10px;
+    }
+
+    .left img {
+        width: 50px;
+    }
+
+    .left div {
+        text-align: right;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
+    .navbar li a:hover {
+        color: violet;
+        text-decoration: underline;
+
+    }
+
+    .btn {
+        font-family: 'Playball', cursive;
+        color: white;
+        margin: 0px 0px;
+        background-color: rgb(10, 16, 85);
+        padding: 5px 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: powderblue;
+        text-decoration: underline;
+    }
+
+    .container {
+        /* border: 2px solid greenyellow; */
+        margin: 106px 80px;
+        padding: 75px 20px;
+        width: 33%;
+        border-radius: 10px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        border-radius: 10px;
+        margin: 11px auto;
+        padding: 10px;
+        font-size: 20px;
+
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin: 20px auto ;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="image is not viewing">
+            <div class="leftalign">FitClub.com</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>        Join the Best Gym in Allahabad
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Mob No.">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email ID">
+            </div>
+            
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
